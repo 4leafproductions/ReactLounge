@@ -1,0 +1,43 @@
+.tourBorder {
+  border: none;
+  border-radius: 10px;
+  padding: 4px;
+}
+.tourText {
+  border: 3px solid goldenrod;
+  border-radius: 15px;
+  box-shadow: 3px 3px 15px rgb(224, 201, 141);
+  padding: 12px;
+  padding-top: 20px;
+  min-width:200px;
+  min-height: 100px;
+  max-width: 300px;
+  position: absolute;
+  margin:auto;
+  z-index: 99999999;
+  margin-top: 10px;
+  background-color: black;
+  font-family: var(--font-mono);
+}
+.tourBorder:hover{
+  border: 3px solid goldenrod;
+}
+.tourBorderNone:hover{
+  border:none !important;
+}
+
+
+.tooltip {
+  display:inline-block;
+  position:relative;
+  border-bottom:1px dotted #666;
+  text-align:left;
+}
+
+@media screen and (max-width: 600px) {
+  .tourText{
+    position: absolute;
+      left:50%;
+      transform: translate(-25%, 0%);
+  }
+}

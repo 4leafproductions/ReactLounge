@@ -1,0 +1,46 @@
+.viewer{
+  margin-top: 30px;
+  width:1000px;
+  border: 2px outset goldenrod;
+  padding:2px;
+  border-radius: 5px;
+  background-color: goldenrod;
+ 
+}
+
+
+@media screen and (max-width: 815px) {
+  .viewer{
+    width:750px;
+  }
+  .author{
+    display:none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .viewer{
+    width:400px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .viewer{
+    width:340px;
+  }
+}
+.header{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(40%, auto));
+  width: var(--max-width);
+  max-width: 100%;
+  vertical-align: baseline;
+}
+.title{
+  margin-top: 10px;
+  color:black;
+  font-weight: 800;
+}
+.author{
+  margin-top: 10px;
+  color:black;
+  font-weight: 800;
+}

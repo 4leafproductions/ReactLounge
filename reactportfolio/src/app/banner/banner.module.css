@@ -1,0 +1,28 @@
+.banner{
+    width: auto;
+    margin: auto;
+    height:350px;
+    margin-top: -130px;
+    margin-bottom: -200px;
+    position:relative;
+    z-index: -10;
+}
+.backgroundBanner{
+    margin-top: -100px;
+    height:350px;
+    position: absolute;
+    left: 50;
+    top: 0;
+    background: url('/bookBanner.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    min-width: 1080px;
+    z-index: -10;
+}
+
+@media screen and (max-width: 1080px) {
+    .backgroundBanner{
+        min-width: 100%;
+    }
+  }

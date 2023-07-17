@@ -1,0 +1,36 @@
+.optionPicker{
+    display:grid;
+    background-color: goldenrod;
+    color: black;
+    padding: 10px;
+    border-radius: 12px;
+    border: 2px outset goldenrod;
+    grid-template-columns: 100px 100px;
+    grid-gap: 10px;
+
+    max-width: 320px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+.option{
+    cursor:pointer;
+}
+.option:hover{
+    text-decoration: underline;
+}
+.option:active{
+    color:rgb(150, 114, 22);
+}
+.grid {
+    grid-template-columns: 1fr;
+    margin-bottom: 120px;
+    max-width: 320px;
+    text-align: center;
+  }
+  .body{
+    width: 100vh;
+    margin: 50px;
+  }
