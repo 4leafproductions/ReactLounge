@@ -50,7 +50,7 @@ export default function Home() {
       
       <Tourbox tourMode={isTourMode} tourText = "The Banner component is a reactive header to the site. It uses media queries to size appropriately for ranges from 4k to mobile. The bookshelf image is from my living room -- shot on a Nikon Z6 and edited in Adobe Photoshop to give a subdued background feel. The font is Cinzel from Google.">
         <div className={styles.description}>
-          <h1 className={cinzel.className}>Andrew&apos;s Listening & Reading Lounge</h1>
+          <h1 className={cinzel.className}>Andrew&apos;s Listening & Reading Lounge 2</h1>
           <div>
             <a
               href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
